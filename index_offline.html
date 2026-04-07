@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>雷军 - 个人简历（离线版）</title>
+  <style>
+    :root{
+      --bg: #f7f5f2;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --orange: #f59e0b;
+      --orange-100: #fff7ed;
+      --shadow: 0 1px 2px rgba(0,0,0,.04), 0 6px 20px rgba(0,0,0,.04);
+      --radius: 14px;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;}
+    .container{max-width:1100px;margin:0 auto;padding:24px}
+    .card{background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid #e5e7eb;padding:20px}
+    .row{display:flex;gap:14px;align-items:baseline;justify-content:space-between;flex-wrap:wrap}
+    h1{font-size:28px;margin:0}
+    .sub{color:var(--muted);font-size:12px;margin-top:4px}
+    .badge{background:var(--orange-100);color:var(--orange);padding:6px 12px;border-radius:999px;border:1px solid #fbd38d;font-size:12px}
+    .grid{display:grid;gap:14px;grid-template-columns:repeat(1,minmax(0,1fr));margin-top:14px}
+    @media (min-width: 768px){
+      .grid{grid-template-columns:repeat(3,minmax(0,1fr));}
+    }
+    .section-title{color:var(--orange);font-weight:600;margin:8px 0 8px 0;font-size:16px}
+    ul{list-style:disc;margin:0 0 0 20px;padding:0}
+    .tag{display:inline-block;padding:6px 10px;border-radius:999px;border:1px solid #f1a34a;background:#fff8f0;color:#8a4b0f;font-size:12px;margin:4px 6px 0 0}
+    .notices{color:var(--muted);font-size:12px}
+  </style>
+</head>
+<body>
+  <main class="container">
+    <!-- Header -->
+    <section class="card" style="margin-bottom:16px;">
+      <div class="row">
+        <div>
+          <h1>雷军</h1>
+          <div class="sub">科技企业家 · 小米科技 创始人/CEO</div>
+        </div>
+        <span class="badge">华中科技人</span>
+      </div>
+      <div class="grid" aria-label="基本信息">
+        <div>武汉大学 计算机科学系 毕业</div>
+        <div>现任 小米科技 董事长兼 CEO</div>
+        <div>早年在金山软件任职，推动软件产品化与生态建设</div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="card" style="margin-bottom:16px;">
+      <div class="section-title">关于我</div>
+      <p class="notices" style="line-height:1.65;margin:0 0 6px 0;color:#374151;">具备多年科技行业的企业家与产品/战略领导经验。通过高性价比硬件与互联网服务的生态布局，推动用户体验与产业升级的融合。</p>
+    </section>
+
+    <!-- Key Experience -->
+    <section class="card" style="margin-bottom:16px;">
+      <div class="section-title">关键经历</div>
+      <ul>
+        <li>
+          <strong>小米科技 — 创始人、董事长、CEO</strong><br/>
+          <span class="notices">2010 — 至今 • 智能手机、智能硬件与互联网服务生态系统的建设</span>
+          <ul style="margin-top:6px;">
+            <li>推动高性价比手机和智慧硬件生态的全球化落地</li>
+            <li>建立开放生态链，连接硬件、软件与云端服务</li>
+            <li>引导跨品类 AIoT 产品线的发展与协同</li>
+          </ul>
+        </li>
+        <li>
+          <strong>金山软件 — 高级管理人员</strong><br/>
+          <span class="notices">1990s–2010 • 推动办公软件及云端服务的本地化与国际化</span>
+          <ul style="margin-top:6px;">
+            <li>提升核心产品竞争力，推动全球市场扩张</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Education -->
+    <section class="card" style="margin-bottom:16px;">
+      <div class="section-title">教育背景</div>
+      <p>武汉大学 — 计算机科学系 本科</p>
+    </section>
+
+    <!-- Core Skills -->
+    <section class="card" style="margin-bottom:16px;">
+      <div class="section-title">核心能力</div>
+      <div>
+        <span class="tag">产品战略</span>
+        <span class="tag">生态建设</span>
+        <span class="tag">团队建设</span>
+        <span class="tag">市场洞察</span>
+        <span class="tag">创新执行</span>
+        <span class="tag">投资与合作</span>
+      </div>
+    </section>
+
+    <!-- Achievements -->
+    <section class="card" style="margin-bottom:16px;">
+      <div class="section-title">代表性成就</div>
+      <ul>
+        <li>引导 小米形成覆盖手机、IoT 硬件与互联网服务的完整生态</li>
+        <li>推动全球化供应链与跨渠道生态伙伴网络的建立</li>
+        <li>在竞争激烈的消费电子市场实现高性价比与持续创新</li>
+      </ul>
+    </section>
+
+    <!-- Languages & Interests -->
+    <section class="card" style="margin-bottom:16px;">
+      <div class="section-title">语言与兴趣</div>
+      <div>
+        <span class="tag" style="padding:6px 12px;">普通话</span>
+        <span class="tag" style="padding:6px 12px;">英语</span>
+        <span class="tag" style="padding:6px 12px;">科技教育</span>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

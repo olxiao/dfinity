@@ -1,0 +1,30 @@
+{
+  "encrypted_string_length": 9818,
+  "test_cases": [
+    {
+      "method": "最可能的组合1",
+      "result": null,
+      "success": false
+    },
+    {
+      "method": "最可能的组合2",
+      "result": null,
+      "success": false
+    },
+    {
+      "method": "网站域名相关",
+      "result": null,
+      "success": false
+    },
+    {
+      "method": "用户信息相关",
+      "result": null,
+      "success": false
+    }
+  ],
+  "summary": {
+    "total_tests": 4,
+    "successful": 0,
+    "failed": 4
+  }
+}
